@@ -1,0 +1,80 @@
+1. Naive Pattern Matching
+Time: O((n - m + 1) × m) ⇒ Worst case: O(n × m)
+
+Space: O(1)
+
+2. KMP (Knuth-Morris-Pratt) Algorithm
+Time: O(n + m)
+
+Space: O(m) (for LPS array)
+
+3. Rabin-Karp Algorithm
+Time: Average: O(n + m), Worst case: O(n × m) (due to hash collisions)
+
+Space: O(1)
+
+4. Travelling Salesman Problem (Brute Force)
+Time: O(n!)
+
+Space: O(n)
+
+5. 0/1 Knapsack (Brute Force Recursion)
+Time: O(2^n)
+
+Space: O(n) (recursion stack)
+
+6. Assignment Problem (Brute Force)
+Time: O(n!)
+
+Space: O(n)
+
+7. 0/1 Knapsack (Dynamic Programming)
+Time: O(n × W)
+
+Space: O(n × W)
+
+8. Longest Common Subsequence (DP)
+Time: O(m × n)
+
+Space: O(m × n)
+
+9. Minimum Coin Change (DP)
+Time: O(V × n)
+
+Space: O(V)
+
+10. Activity Selection Problem (Greedy)
+Time: O(n log n) (due to sorting)
+
+Space: O(1)
+
+11. Huffman Coding
+Time: O(n log n) (priority queue)
+
+Space: O(n) (tree + queue)
+
+12. Sieve of Sundaram
+Time: O(n log n)
+
+Space: O(n)
+
+13. Hamiltonian Circuit (Backtracking)
+Time: O((n - 1)!)
+
+Space: O(n)
+
+14. Subset Sum Problem (DP)
+Time: O(n × sum)
+
+Space: O(n × sum)
+
+15. Knight’s Tour (Backtracking)
+Time: O(8^n^2)
+
+Space: O(n^2)
+
+16. Sudoku Solver (Backtracking)
+Time: O(9^(n × n)) → For standard 9x9 grid: O(9^81)
+
+Space: O(1) (modifies grid in place; call stack depth is limited)
+
